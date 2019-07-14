@@ -507,7 +507,7 @@ cd prank
 php wa.php
 fi
 
-fi [ $cok = 31 ] || [ $cok = 31 ]
+if [ $cok = 31 ] || [ $cok = 31 ]
 then
 clear
 figlet Sadap Hp | lolcat
